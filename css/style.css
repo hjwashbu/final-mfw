@@ -6,8 +6,15 @@ body{
 .navbar{
     background-color: #647C90;
 }
+.welcome{
+    margin: 5rem;
+    padding: 1rem;
+    text-align: center;
+    color: #914955;
+    font-size: larger;
+}
 .carousel{
-    margin-top: 4.5rem;
+    margin: 4.5rem auto;
 }
 .carousel-item{
     height: 35rem;
@@ -18,9 +25,28 @@ body{
 
 
 
-/* 
-@media (min-width:960px) {
-    .carousel{
+@media (max-width: 960px){
+    .welcome{
+        color: aqua;
+    }
+    .carousel-item{
+        height: 25rem;
+    }
+    
+}
+@media (max-width: 720px){
+    .welcome{
+        color:red;
+    }
+    .carousel-item{
+        height: 20rem;
+    }
+}
+@media (max-width: 540px){
+    .welcome{
+        color:black;
+    }
+    .carousel-item{
         height: 15rem;
-    }    
-} */
+    }
+}
