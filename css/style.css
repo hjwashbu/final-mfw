@@ -6,3 +6,21 @@ body{
 .navbar{
     background-color: #647C90;
 }
+.carousel{
+    margin-top: 4.5rem;
+}
+.carousel-item{
+    height: 35rem;
+}
+.d-block{
+    margin: auto;
+}
+
+
+
+/* 
+@media (min-width:960px) {
+    .carousel{
+        height: 15rem;
+    }    
+} */
