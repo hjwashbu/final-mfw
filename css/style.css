@@ -1,17 +1,15 @@
 body{
     background-color: #ADB3BC;
 }
-/* c5c5c5 */
-/* navbar class bg-light */
-.navbar{
+/* .navbar{
     background-color: #647C90;
-}
+} */
 .welcome{
-    margin: 5rem;
-    padding: 1rem;
+    margin-top: 2rem
+    /* padding: 1rem; 
     text-align: center;
     color: #914955;
-    font-size: larger;
+    font-size: larger; */
 }
 .carousel{
     margin: 4.5rem auto;
