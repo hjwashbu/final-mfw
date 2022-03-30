@@ -44,5 +44,6 @@ body{
 @media (max-width: 540px){
     .carousel-item{
         height: 15rem;
+        width: 100%;
     }
 }
