@@ -1,19 +1,12 @@
 body{
-    background-color: #ADB3BC;
+    background-color: #f7f3e6;
 }
 .logo{
     border-radius: 100%;
     height: 3rem;
 }
-/* .navbar{
-    background-color: #647C90;
-} */
-.welcome{
-    margin-top: 2.5rem
-    /* padding: 1rem; 
-    text-align: center;
-    color: #914955;
-    font-size: larger; */
+.jumbo{
+    margin-top: 5.5rem;
 }
 .carousel{
     margin: 4.5rem auto;

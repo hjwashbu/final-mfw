@@ -13,8 +13,8 @@
     <title>MFW Final Project</title>
 </head>
 <body>
-      <!-- NavBar -->
-      <nav class="navbar navbar-dark navbar-expand-xl fixed-top" style="background-color: #647c90;">
+    <!-- NavBar -->
+    <nav class="navbar navbar-dark navbar-expand-xl fixed-top" style="background-color: #647c90;">
         <div class="container-fluid">
               <!-- Top Left Link/Title -->
                 <a class="navbar-brand" href="https://hjwashbu.github.io/final-mfw/">
@@ -113,28 +113,28 @@
                 </div>
               </div>
         </div>
-      </nav>
+    </nav>
 
-      <!-- Welcome Text -->
-      <div class="welcome container p-5 text-center" style="color: #914955;">
-        <h1>
-          <strong>
-            HalesJai Portfolio
-          </strong>
+
+    <!-- Jumbotron -->
+    <div class="jumbo mb-5">
+      <div class="container p-5 bg-secondary bg-opacity-25">
+        <h1 class="display-5 fw-bold">
+          HalesJai Portfolio
         </h1>
-        <br>
-        <p class="fs-3">
-          <!-- <span class="lead fs-2">
-          Lorem ipsum 
-          </span> -->
-          This site serves as a collection of the work of HalesJai <br> <span class="fs-5 p-5"> You will find snips below of some of the work of which I am most proud, including my final project from the Websites for Beginners course. Feel free to click on any picture to learn more. You will</span>
+        <p class="col-9 fs-4">
+          A collection of works developed over the course of two Bitwise classes.
         </p>
+        <button class="btn btn-md" style="background-color: #914955; color: #fff;">
+          Learn More
+        </button>
       </div>
+    </div>
 
-      <hr>
+    <hr>
 
-      <!-- Carousel -->
-      <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+    <!-- Carousel -->
+    <div id="carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -195,12 +195,49 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div> 
+    </div> 
 
-      <hr>
+    <hr>
 
-
-
+    <!-- Accordion -->
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Accordion Item #1
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Accordion Item #2
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Accordion Item #3
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+    </div>
 
 
 
