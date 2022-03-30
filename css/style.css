@@ -8,12 +8,15 @@ body{
 /* .navbar{
     background-color: #647C90;
 } */
-.welcome{
+/* .welcome{
     margin-top: 2.5rem
-    /* padding: 1rem; 
+    padding: 1rem; 
     text-align: center;
     color: #914955;
-    font-size: larger; */
+    font-size: larger;
+} */
+.jumbo{
+    margin-top: 5.5rem;
 }
 .carousel{
     margin: 4.5rem auto;
