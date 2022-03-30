@@ -7,7 +7,7 @@ Includes
 - Bootstrap components and styling
 - Responsiveness across screen sizes thanks to properly implemented media queries
 - Links to past work, including daily practices and the Websites for Beginners Final Project
-- Carousel
+- Jumbotron, Carousel, and Accordion components
 - Self-written content
 - Icons and multiple fonts
 - Customized contact form
