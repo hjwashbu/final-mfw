@@ -23,49 +23,54 @@ body{
 
 /* Footer */
 .footer{
-    /* border-top: 5px solid #fff; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.fc{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+/* .footer{
+    border-top: 5px solid #fff;
     height: 150px;
     margin: auto;
     clear: both;
-}
-.frow{
+} */
+/* .frow{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-.fc{
+} */
+/* .fc{
     margin: 0 2.2%;
     height: 150px;
-    width: 28%;
+    width: 28%; */
     /* background-color: #3A475E; */
-    float: left;
-}
-.flogo{
+    /* float: left; */
+/* } */
+/* .flogo{ */
     /* height: 50px;
     border-radius: 100%; */
-    margin-top: 25px;
+    /* margin-top: 25px;
     margin-left: 100px;
-}
-.copyhw{
-    font-family: 'Roboto', sans-serif;
+} */
+.copyhw, .find{
+    /* font-family: 'Roboto', sans-serif; */
     color: #fff;
-    font-size: 13px;
+    /* font-size: 13px;
     margin-left: 45px;
-    padding-top: 10px;
+    padding-top: 10px; */
 }
 .fa-hippo{
     color:#fff;
-    margin: 70px 0 0 47%;
+    /* margin: 70px 0 0 47%; */
 }
 .socials{
-    text-align: right;
-}
-.find{
-    font-family: 'Roboto', sans-serif;
+    /* text-align: right; */
     color: #fff;
-    font-size: 20px;
-    margin-top: 40px;
-    margin-right: 24px;
 }
 .soc:link, .soc:visited{
     color: #fff;
@@ -76,9 +81,9 @@ body{
 .soc:active{
     color: #8fa382;
 }
-.fa-brands{
+/* .fa-brands{
     margin: 5px;
-}
+} */
 
 
 
