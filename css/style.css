@@ -75,6 +75,14 @@ body{
     .carousel-item{
         height: 20rem;
     }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .fc{
+        margin: 1rem;
+    }
 }
 @media (max-width: 540px){
     .carousel-item{
