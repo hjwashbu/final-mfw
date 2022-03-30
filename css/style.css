@@ -1,13 +1,16 @@
 body{
     background-color: #f7f3e6;
 }
+/* NavBar */
 .logo{
     border-radius: 100%;
     height: 3rem;
 }
+/* Jumbotron */
 .jumbo{
     margin-top: 5.5rem;
 }
+/* Carousel */
 .carousel{
     margin: 4.5rem auto;
 }
@@ -17,10 +20,10 @@ body{
 .d-block{
     margin: auto;
 }
+/* Accordion */
 .accordion{
     margin-bottom: 1.5rem;
 }
-
 /* Footer */
 .footer{
     padding-top: 1rem;
