@@ -17,11 +17,13 @@ body{
 .d-block{
     margin: auto;
 }
+.accordion{
+    margin-bottom: 1.5rem;
+}
 
 /* Footer */
 .footer{
-    
-    border-top: 5px solid #fff;
+    /* border-top: 5px solid #fff; */
     height: 150px;
     margin: auto;
     clear: both;
@@ -39,8 +41,8 @@ body{
     float: left;
 }
 .flogo{
-    height: 50px;
-    border-radius: 100%;
+    /* height: 50px;
+    border-radius: 100%; */
     margin-top: 25px;
     margin-left: 100px;
 }
