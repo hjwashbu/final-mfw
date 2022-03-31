@@ -23,11 +23,11 @@ body{
 /* Jumbotron */
 .jumbo{
     margin-top: 5.5rem;
-    font-family:'Roboto', sans-serif;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: .25rem;
 }
 .portfolio{
-    font-family: 'Amatic SC', cursive;
-    letter-spacing: 1rem;
+    font-family:'Roboto', sans-serif;
 }
 
 
@@ -43,14 +43,20 @@ body{
 }
 
 /* Accordion */
-.accordion{
+#accordion{
     margin-bottom: 1.5rem;
+    font-family:'Roboto', sans-serif;
+    font-weight: 700;
 }
-
+.accordion-button{
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: .5rem;
+}
 
 
 /* Footer */
 .footer{
+    font-family:'Roboto', sans-serif;
     padding-top: 1rem;
     display: flex;
     flex-flow: row wrap;
