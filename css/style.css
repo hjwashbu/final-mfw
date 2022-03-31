@@ -23,6 +23,11 @@ body{
 /* Jumbotron */
 .jumbo{
     margin-top: 5.5rem;
+    font-family:'Roboto', sans-serif;
+}
+.portfolio{
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 1rem;
 }
 
 
