@@ -34,8 +34,15 @@ font-family: 'Roboto', sans-serif; */
 
 
 /* Carousel */
+.past, .history{
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    font-family: 'Roboto', sans-serif;
+    color: #914955;
+}
 .carousel{
-    margin: 4.5rem auto;
+    margin: auto;
+    margin-bottom: 4rem;
 }
 .carousel-item{
     height: 35rem;
