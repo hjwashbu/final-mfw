@@ -122,163 +122,84 @@
         <h1 class="portfolio display-4 fw-bold">
           Contact HalesJai
         </h1>
-        <!-- <p class="col-9 fs-4">
-          Use the form be.
-        </p> -->
-        <!-- <a href="index.html#accordion">  
-          <button class="btn btn-md portfolio" style="background-color: #914955; color: #fff;">
-            Learn More
-          </button>
-        </a> -->
       </div>
     </div>
 
     <hr>
 
-    <!-- Carousel -->
-    <!-- <div id="carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
-       <h1 class="container past display-6 fw-bold">
-         Past Projects
-       </h1> 
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="7000">
-            <a href="https://hjwashbu.github.io/final-w4b/" target="_blank">
-            <img src="img/w4bfp.png" class="d-block mh-100 " alt="Screenshot of website hero image" title="W4B Final Project">
-            </a>
-          </div>
-          <div class="carousel-item" data-bs-interval="7000">
-            <a href="wfbday4.html" target="_blank">
-            <img src="img/w4b4.png" class="d-block mh-100" alt="Screenshot of website hero image" title="W4B Daily Challenge">
-            </a>
-          </div>
-          <div class="carousel-item" data-bs-interval="7000">
-            <a href="mfwday1.html" target="_blank">
-            <img src="img/mfw1.png" class="d-block mh-100" alt="Screenshot of practice site" title="MFW Daily Challenge">
-            </a>
-          </div>
-          <div class="carousel-item" data-bs-interval="7000">
-            <a href="mfwday7.html" target="_blank">
-            <img src="img/mfw7.png" class="d-block mh-100" alt="Screenshot of parallax scroll example" title="MFW Parallax Scroll">
-            </a>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-    </div> 
+    <!-- Contact Form -->
+    <form class="container" id="contact-form" method="post" action="contact.php" role="form">
 
-    <hr> -->
-
-    <!-- Accordion -->
-    <!-- <div class="container" id="accordion">
-      <h1 class="container history display-6 fw-bold">
-        History of HalesJai
-      </h1> 
-      <div class="accordion accordion-flush" id="accordionExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button collapsed fs-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-              Then...
-            </button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <em class="date fs-5">
-                November 2021
-              </em>
-              <br>
-              <p>
-                <span class="lead diplay-4">T</span>he California Department of Industrial Relations Division of Apprenticeship Standards hosts a virtual conference – Inclusive 21st Century Apprenticeships. Irma Olguin Jr., Bitwise co-founder and CEO, presented from Washington DC as Bitwise Industries had just been formally recognized as a US Department of Labor registered apprenticeship program.
-              </p>
-              <figure class="text-center">
-                <blockquote class="blockquote">
-                  <p>
-                    No one belongs here more than you.
-                  </p>
-                </blockquote>
-                <figcaption class="blockquote-footer">
-                  Irma Olguin, Jr. <cite title="Source Title">Inclusive 21st Century Apprenticeships</cite>
-                </figcaption>
-              </figure>
-              Hales takes Irma’s words to heart, and begins looking into the company and the classes they offer.
+        <div class="messages"></div>
+    
+        <div class="controls">
+    
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="form_name">First Name *</label>
+                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your first name" required="required" data-error="First name is required.">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="form_lastname">Last Name *</label>
+                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your last name" required="required" data-error="Last name is required.">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button collapsed fs-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Now...
-            </button>
-          </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <em class="date fs-5">
-                March 2022
-              </em>
-              <br>
-              <p>
-                <span class="lead diplay-4">F</span>rom Websites for Beginners to Mobile Friendly Websites, Hales has found something that challenges, inspires, and motivates her. This site serves as a portfolio of the work to date of HalesJai as a Bitwise student. She is proud of the work that she has done, and has chosen to highlight select pieces via the links above.
-              </p>
-              <figure class="text-center">
-                <blockquote class="blockquote">
-                  <p>
-                    No Zero Days.
-                  </p>
-                </blockquote>
-              </figure>
-              Hales chooses to live her life by the above mantra. <strong><em> No Zero Days</em></strong> means that every day she makes an effort and takes a step in the right direction – even if it’s just brushing her teeth in the morning! By taking these Bitwise classes, Hales has made sure every day of the past 12 weeks has been a non-zero day. Thank you, Bitwise!
+            <br>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="form_email">Email *</label>
+                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email" required="required" data-error="Valid email is required.">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="form_need">Subject (Drop Down)*</label>
+                        <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                            <option value=""></option>
+                            <option value="Praise">Praise! (Preferred - tell me you love me)</option>
+                            <option value="Question">Question (I'll do my best to answer!)</option>
+                            <option value="HireMe">Website Development Request (Please hire me. I'm desperate)</option>
+                            <option value="Other">Other</option>
+                        </select>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button collapsed fs-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              What's to Come...
-            </button>
-          </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <em class="date fs-5">
-                Future
-              </em>
-              <br>
-              <p>
-                <span class="lead diplay-4">H</span>ales plans to continue her Bitwise journey later in 2022 with the Javascript for Beginners and React classes. In the meantime, she will be working to continue practicing and expanding her portfolio. Hales has recently committed to her first development project outside of Bitwise – creating an online storefront for Timmy B’s Sweets and Treats! She wants to continue her development journey and hopes that she can find a future pursuing her passion – whether by freelancing or joining the Bitwise Apprenticeship Program.
+            <br>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="form_message">Message *</label>
+                        <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <br>
+                    <input type="submit" class="btn btn-success btn-send" value="Send message">
+                </div>
             </div>
-          </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <br>
+                    <p class="text-muted text-end">
+                        <strong>*</strong> These fields are required. Contact form template by
+                        <a href="https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form" target="_blank">Bootstrapious</a>.</p>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
+    
+    </form>
 
-    <hr> -->
 
-    <!-- parallax (from Jumbo)-->
-    <!-- <div class="mb-5">
-      <div class=" jumbo container p-5">
-        <h1 class="portfolio display-4 fw-bold">
-          Curious?
-        </h1>
-        <p class="col-9 fs-4">
-          Reach out to HalesJai to learn more.
-        </p>
-        <a href="index.html#accordion">  
-          <button class="btn btn-md portfolio" style="background-color: #914955; color: #fff;">
-            Contact HalesJai
-          </button>
-        </a>
-      </div>
-    </div> -->
 
 
     <!-- Footer -->
